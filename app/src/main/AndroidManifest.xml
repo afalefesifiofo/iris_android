@@ -16,15 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LlamaAndroid"
         android:windowSplashScreenBackground="#00FF00">
-
-        <activity
-            android:name=".Copy_screen"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.LlamaAndroid"
+            android:theme="@style/Theme.Iris"
             android:windowBackground="#00FF00"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -33,6 +30,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Copy_screen"
+            android:exported="false" />
     </application>
 
 </manifest>

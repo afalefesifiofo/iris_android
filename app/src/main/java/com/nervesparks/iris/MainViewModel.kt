@@ -67,10 +67,16 @@ class MainViewModel(private val llamaAndroid: LLamaAndroid = LLamaAndroid.instan
                 "source" to "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q6_K_L.gguf?download=true",
                 "destination" to "Llama-3.2-1B-Instruct-Q6_K_L.gguf"
             ),
+
+            //mapOf(
+            //    "name" to "Llama-3.2-3B-Instruct-Q4_K_L.gguf",
+              //  "source" to "https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_L.gguf?download=true",
+                //"destination" to "Llama-3.2-3B-Instruct-Q4_K_L.gguf"
+            //),
             mapOf(
-                "name" to "Llama-3.2-3B-Instruct-Q4_K_L.gguf",
-                "source" to "https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_L.gguf?download=true",
-                "destination" to "Llama-3.2-3B-Instruct-Q4_K_L.gguf"
+                "name" to "prem-1B-chat-i1-GGUF",
+                "source" to "https://huggingface.co/mradermacher/prem-1B-chat-i1-GGUF/resolve/main/prem-1B-chat.i1-IQ2_M.gguf?download=true",
+                "destination" to "prem-1B-chat-i1-GGUF"
             ),
             mapOf(
                 "name" to "stablelm-2-1_6b-chat.Q4_K_M.imx.gguf",

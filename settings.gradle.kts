@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Iris"
 include(":app")
 include(":llama")
+include(":app")
