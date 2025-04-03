@@ -74,14 +74,19 @@ class MainViewModel(private val llamaAndroid: LLamaAndroid = LLamaAndroid.instan
                 //"destination" to "Llama-3.2-3B-Instruct-Q4_K_L.gguf"
             //),
             mapOf(
-                "name" to "prem-1B-chat-i1-GGUF",
-                "source" to "https://huggingface.co/mradermacher/prem-1B-chat-i1-GGUF/resolve/main/prem-1B-chat.i1-IQ2_M.gguf?download=true",
-                "destination" to "prem-1B-chat-i1-GGUF"
+                "name" to "tinyllama-1.1b-chat-v1.0.Q8_0.gguf",
+                "source" to "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q8_0.gguf?download=true",
+                "destination" to "tinyllama-1.1b-chat-v1.0.Q8_0.gguf"
             ),
             mapOf(
                 "name" to "stablelm-2-1_6b-chat.Q4_K_M.imx.gguf",
                 "source" to "https://huggingface.co/Crataco/stablelm-2-1_6b-chat-imatrix-GGUF/resolve/main/stablelm-2-1_6b-chat.Q4_K_M.imx.gguf?download=true",
                 "destination" to "stablelm-2-1_6b-chat.Q4_K_M.imx.gguf"
+            ),
+            mapOf(
+                "name" to "MobiLlama-1B-Chat.Q8_0.gguf",
+                "source" to "https://huggingface.co/RichardErkhov/MobiLlama-1B-Chat-gguf/resolve/main/MobiLlama-1B-Chat.Q8_0.gguf?download=true",
+                "destination" to "MobiLlama-1B-Chat.Q8_0.gguf"
             ),
 
         )
